@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body id="body">
+    <div class="navbar">
+      <div class="logo-icon">
+        <img src="../images/icon-css.svg" alt="" />
+        <p>CSS</p>
+      </div>
+      <div class="toggle-div">
+        <img src="../images/icon-sun-dark.svg" alt="" />
+        <div class="toggle-bar-div">
+          <div class="toggle-thumb toggle-thumb-dark"></div>
+        </div>
+        <img src="../images/icon-moon-dark.svg" alt="" />
+      </div>
+    </div>
+    <main class="main">
+      <header class="header">
+        <p id="question-number-tag">Question <span id="question-number-count">6</span> of 10</p>
+        <h1 id="question-element">
+        </h1>
+        <div class="progress-bar-div">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+      </header>
+
+      <section class="options-section">
+        <div class="options-div" id="options-div">
+        </div>
+        <div class="submit-div">
+            <h1 id="question-element"></h1>
+          <button id="submit-btn" class="submit-btn">
+            Next Question
+          </button>
+          <div id="error-div" class="error-div hidden">
+            <img src="../images/icon-incorrect.svg" alt="error icon" />
+            <span class="error-msg">Please select an answer</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

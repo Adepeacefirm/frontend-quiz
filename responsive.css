@@ -1,0 +1,20 @@
+@media (min-width: 770px) {
+    body{
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 2rem;
+    }
+    main {
+        display: flex;
+
+
+    }
+    .header {
+        width: 50%;
+        padding-block: 1rem;
+        padding-left: 5rem;
+    }
+    .subjects-section {
+        width: 50%;
+    }
+}

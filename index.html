@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-end Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body id="body">
+    <div class="toggle-div">
+      <img src="./images/icon-sun-dark.svg" alt="" />
+      <div class="toggle-bar-div">
+        <div class="toggle-thumb"></div>
+      </div>
+      <img src="./images/icon-moon-dark.svg" alt="" />
+    </div>
+
+    <main class="main" id="main">
+      <header class="header">
+        <p>Welcome to the <span id="frontend">Frontend Quiz!</span></p>
+        <span id="pick">Pick a subject to get started.</span>
+      </header>
+
+      <section class="subjects-section">
+        <div class="subjects html" data-subject="HTML">
+          <img src="./images/icon-html.svg" alt="" />
+          <p>HTML</p>
+        </div>
+        <div class="subjects css" data-subject="CSS">
+          <img src="./images/icon-css.svg" alt="" />
+          <p>CSS</p>
+        </div>
+        <div class="subjects javascript" data-subject="JavaScript">
+          <img src="./images/icon-js.svg" alt="" />
+          <p>JavaScript</p>
+        </div>
+        <div class="subjects accessibility" data-subject="Accessibility">
+          <img src="./images/icon-accessibility.svg" alt="" />
+          <p>Accessibility</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body id="body">
+    <div class="navbar">
+      <div class="logo-icon">
+        <img src="../images/icon-css.svg" alt="" />
+        <p>CSS</p>
+      </div>
+      <div class="toggle-div">
+        <img src="../images/icon-sun-dark.svg" alt="" />
+        <div class="toggle-bar-div">
+          <div class="toggle-thumb"></div>
+        </div>
+        <img src="../images/icon-moon-dark.svg" alt="" />
+      </div>
+    </div>
+
+    <main class="result-main">
+      <section class="result-header">
+        <p>Quiz completed <span class="you-scored">You scored...</span></p>
+      </section>
+
+      <section class="result-section">
+        <div class="result-container">
+          <div class="result-logo-div">
+            <img src="../images/icon-css.svg" alt="" />
+            <p>CSS</p>
+          </div>
+          <h2 class="my-score" id="my-score"></h2>
+          <p id="out">out of 10</p>
+        </div>
+        <button class="submit-btn play-again-btn">
+          <a href="../index.html">Play Again</a>
+        </button>
+      </section>
+    </main>
+
+    <script src="./result.js"></script>
+  </body>
+</html>
