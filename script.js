@@ -27,7 +27,4 @@ javascriptQuestions.addEventListener("click", ()=>{
 
 toggleDiv.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
-//   subjects.forEach((subject)=>{
-//     subject.classList.toggle("subjects-dark-mode")
-//   })
 });

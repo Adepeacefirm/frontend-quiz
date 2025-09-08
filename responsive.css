@@ -1,20 +1,32 @@
+@media (min-width: 500px) {
+  body {
+    background-image: url("./images/pattern-background-tablet-light.svg");
+  }
+  body.dark-mode {
+    background-image: url("./images/pattern-background-tablet-dark.svg");
+  }
+}
+
 @media (min-width: 770px) {
-    body{
-        width: 80%;
-        margin-inline: auto;
-        margin-top: 2rem;
-    }
-    main {
-        display: flex;
+  body {
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 2rem;
+    background-image: url("./images/pattern-background-desktop-light.svg");
+  }
 
-
-    }
-    .header {
-        width: 50%;
-        padding-block: 1rem;
-        padding-left: 5rem;
-    }
-    .subjects-section {
-        width: 50%;
-    }
+  main {
+    display: flex;
+  }
+  .header {
+    width: 50%;
+    padding-block: 1rem;
+    padding-left: 5rem;
+  }
+  .subjects-section {
+    width: 50%;
+  }
+  body.dark-mode {
+    background-image: url("./images/pattern-background-desktop-dark.svg");
+  }
 }
