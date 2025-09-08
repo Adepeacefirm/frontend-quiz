@@ -20,7 +20,6 @@ main {
 
 .toggle-div {
   display: flex;
-
   float: right;
   margin: 2rem;
   gap: 5px;
@@ -81,124 +80,6 @@ main {
 
 .subjects img {
   width: 8%;
-}
-
-.quiz-section {
-  width: 80%;
-  margin-inline: auto;
-}
-
-.quiz-section h1 {
-  font-size: 1rem;
-  margin-block: 1rem;
-}
-
-.header-question p {
-  font-style: italic;
-  font-size: 0.8rem;
-}
-
-.progress-bar-div {
-  height: 16px;
-  width: 4px;
-}
-
-.progress-bar {
-  background-color: #a729f5;
-}
-
-.all-question-options {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
-.question-option {
-  width: 100%;
-  background-color: white;
-  padding: 1rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-}
-
-input[type="radio"] {
-  appearance: none; /* Removes default browser styling */
-  -webkit-appearance: none; /* For Safari/Chrome */
-  -moz-appearance: none; /* For Firefox */
-  outline: none;
-  background: none;
-  border: none;
-}
-
-.question-option span {
-  padding: 0.5rem;
-  background-color: hsl(220, 37%, 97%);
-}
-
-.submit-div {
-  margin-block: 1rem;
-}
-
-.submit-btn {
-  background-color: #a729f5;
-  width: 100%;
-  padding: 1rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 10px;
-  color: white;
-}
-
-.error-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0.5rem;
-}
-
-.error-div img {
-  width: 8%;
-}
-
-.quiz-end {
-  width: 80%;
-  margin-inline: auto;
-}
-
-.you-scored {
-  display: block;
-  font-weight: bold;
-}
-
-.header-quiz-end p {
-  font-size: 2rem;
-  margin-block: 2rem;
-}
-
-.play-again-btn {
-  margin-bottom: 2rem;
-}
-
-.hidden {
-  display: none;
-}
-
-.quiz-icon-html {
-  background-color: #fff5ed;
-  background-image: url("./images/icon-html.svg");
-}
-.quiz-icon-css {
-  background-color: #e0fdef;
-  background-image: url("./images/icon-css.svg");
-}
-.quiz-icon-javascript {
-  background-color: #ebf0ff;
-  background-image: url("./images/icon-js.svg");
-}
-.quiz-icon-accessibility {
-  background-color: #f6e7ff;
-  background-image: url("./images/icon-accessibility.svg");
 }
 
 /* Dark Mode  */
